@@ -1,26 +1,30 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react'
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  constructor(props) {
+    super(props);
+
+  }
+
+  render() {
+    return (
+      <div className="bgimg">
+        <div className="image-background" style={{ height: window.screen.availHeight - 74 }} />
+        <div className="topleft">
+          <p>PAKVAPES</p>
+        </div>
+        <div className="middle">
+          <h1>PAKVAPES IS COMING SOON</h1>
+          <hr />
+          {/* <p>35 days left</p> */}
+        </div>
+        <div className="bottomleft">
+          <p>© Copyright - 2020 - PAKVAPES</p>
+        </div>
+      </div>
+    )
+  }
 }
 
-export default App;
+export default App
