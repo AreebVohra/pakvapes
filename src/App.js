@@ -17,7 +17,7 @@ class App extends Component {
         <div className="middle">
           <h1>PAKVAPES IS COMING SOON</h1>
           <hr />
-          {/* <p>35 days left</p> */}
+          <p>For Business inqueries contact : areeb.verizone@gmail.com with subject: "Business Inquery"</p>
         </div>
         <div className="bottomleft">
           <p>© Copyright - 2020 - PAKVAPES</p>
