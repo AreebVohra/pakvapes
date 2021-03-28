@@ -20,7 +20,7 @@ class App extends Component {
           <p>For Business Inqueries contact: pakvapes.business@gmail.com with subject: "Business Inquery"</p>
         </div>
         <div className="bottomleft">
-          <p>© Copyright - 2020 - PAKVAPES</p>
+          <p>© Copyright - 2021 - PAKVAPES</p>
         </div>
       </div>
     )
